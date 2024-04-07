@@ -2,9 +2,36 @@
 
 
 ### configurações do banco de dados MySQL 🗃
+"""
+CREATE DATABASE ecommerce_data;
+USE ecommerce_data;
 
+CREATE TABLE Users (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    User_name VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL UNIQUE,
+    User_Password VARCHAR(255) NOT NULL
+);
 
+CREATE TABLE Products (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Product_name VARCHAR(255) NOT NULL,
+    Details TEXT,
+    Price DECIMAL(10, 2) NOT NULL,
+    Quantity_in_inventory INT NOT NULL
+);
 
+CREATE TABLE Orders (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Id_user INT NOT NULL,
+    Id_product INT NOT NULL,
+    QuantityOrdered INT NOT NULL,
+    DateOrder TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (Id_user) REFERENCES Users(Id),
+    FOREIGN KEY (Id_product) REFERENCES Products(Id)
+);
+
+"""
 #
 ### Funções 🧾
  • Criar usuários
