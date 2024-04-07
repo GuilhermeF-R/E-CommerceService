@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('./Database/db'); // Importe a configuração da conexão com o banco de dados
+const db = require('../Database/db'); // Importe a configuração da conexão com o banco de dados
 
 // Rota para listar todos os produtos
 router.get('/products', (req, res) => {

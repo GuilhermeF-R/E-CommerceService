@@ -70,3 +70,4 @@ Até o momento, este projeto tem sido uma experiência incrivelmente enriquecedo
 Embora o prazo do projeto tenha sido curto e tenha recorrido ao ChatGPT em algumas ocasiões, isso não diminui o quanto aprendi. Na verdade, considerando os obstáculos iniciais e os momentos em que o ChatGPT não pôde fornecer respostas realmente uteís, além das vezes em que precisei pesquisar em fóruns e tutoriais para fazer alguma linha de código funcionar corretamente, acredito que essas situações ampliaram ainda mais meu aprendizado.
 
 Estou entusiasmado em informar que este projeto continuará!
+(Importante dizer que usei o Insomnia para testes)
