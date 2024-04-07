@@ -1,4 +1,4 @@
-﻿# E-CommerceService 🧑‍💻
+﻿# E-CommerceService 💻
 
 
 ### configurações do banco de dados MySQL 🗃
@@ -6,7 +6,7 @@
 
 
 #
-### funções 🧾
+### Funções 🧾
  • Criar usuários
 
  • Ver lista de usuários cadastrados 
