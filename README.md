@@ -1,7 +1,7 @@
 ﻿# E-CommerceService 💻
 
 
-### configurações do banco de dados MySQL 🗃
+### configurações do banco de dados MySQL 🗃 
 """
 
 CREATE DATABASE ecommerce_data;
@@ -65,5 +65,8 @@ CREATE TABLE Orders (
 #
 ### Anotações e observações 🚀
 
-até agora tive dificuldades em muitas coisas e aprendi muitas outras, em geral está sendo uma experiência enriquecedora.
-criei tabelas, usei MySQL workbench pela primeira vez, tive que ir nas configurações do sistema Windows para ativar os comandos do MySQL pelo cmd, e infelizmente tive que usar o chatgpt devido ao curto prazo do projeto, mas mesmo assim meu aprendizado foi consideravelmente alto. (ainda mais se considerar que no começo teve momentos onde ele so atrapalhava). Esse projeto será continuado!
+Até o momento, este projeto tem sido uma experiência incrivelmente enriquecedora. Foi a minha primeira vez utilizando o MySQL Workbench, o que me proporcionou uma oportunidade empolgante de explorar suas funcionalidades. Além disso, precisei mergulhar nas configurações de variáveis de ambiente do sistema Windows para habilitar os comandos do MySQL pelo prompt de comando.
+
+Embora o prazo do projeto tenha sido curto e tenha recorrido ao ChatGPT em algumas ocasiões, isso não diminui o quanto aprendi. Na verdade, considerando os obstáculos iniciais e os momentos em que o ChatGPT não pôde fornecer respostas realmente uteís, além das vezes em que precisei pesquisar em fóruns e tutoriais para fazer alguma linha de código funcionar corretamente, acredito que essas situações ampliaram ainda mais meu aprendizado.
+
+Estou entusiasmado em informar que este projeto continuará!
