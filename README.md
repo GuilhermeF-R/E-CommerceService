@@ -10,6 +10,7 @@ USE ecommerce_data;
 CREATE TABLE Users (
 
     Id INT AUTO_INCREMENT PRIMARY KEY,
+    
     User_name VARCHAR(255) NOT NULL,
     
     Email VARCHAR(255) NOT NULL UNIQUE,
