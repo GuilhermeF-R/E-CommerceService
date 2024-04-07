@@ -1,5 +1,5 @@
 ﻿# E-CommerceService 🧑‍💻
-#
+
 
 ### configurações do banco de dados MySQL 🗃
 
