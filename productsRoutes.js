@@ -25,12 +25,12 @@ router.post('/products', (req, res) => {
  }
 
  // Inserir os dados do novo produto no banco de dados
- db.query('INSERT INTO users (Product_name, Details, Price, Quantity_in_inventory) VALUES (?, ?, ?)', [Product_name, Details, Price, Quantity_in_inventory ], (err, results) => {
+ db.query('INSERT INTO products (Product_name, Details, Price, Quantity_in_inventory) VALUES (?, ?, ?, ?)', [Product_name, Details, Price, Quantity_in_inventory], (err, results) => {
    if (err) {
      console.error('Erro ao criar novo produto no banco de dados:', err);
      res.status(500).json({ message: 'Erro interno do servidor' });
    } else {
-     res.status(201).json({ message: 'Novo produto adicionado com sucesso', product: { id: results.insertId, Product_name, Details, Price, Quantity_in_inventory } });
+     res.status(201).json({ message: 'Novo produto adicionado com sucesso', product: { id: results.insertId, Product_name, Details} });
    }
  });
 });
