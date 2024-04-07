@@ -3,6 +3,7 @@
 
 ### configurações do banco de dados MySQL 🗃
 """
+
 CREATE DATABASE ecommerce_data;
 USE ecommerce_data;
 
