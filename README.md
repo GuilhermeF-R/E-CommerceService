@@ -7,10 +7,10 @@
 
 #
 ### funções 🧾
-# • Criar usuários
-# • Ver lista de usuários cadastrados 
-# • Registrar produtos 
-# • Ver lista de produtos cadastrados 
+ • Criar usuários
+ • Ver lista de usuários cadastrados 
+ • Registrar produtos 
+ • Ver lista de produtos cadastrados 
 
 #
 ### Anotações e observações 🚀
